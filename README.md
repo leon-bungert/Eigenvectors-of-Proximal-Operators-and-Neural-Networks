@@ -1,1 +1,1 @@
-# Eigenvectors-of-Proximal-Operators-and-Neural-Networks
+# Eigenvectors of Proximal Operators and Neural Networks

@@ -1,3 +1,18 @@
+%---------------------------------------------------------------------
+% This script computes an eigenvector of the FFDnet denoising neural
+% network using the nonlinear power method from: 
+% 
+% Leon Bungert, Ester Hait-Fraenkel, Nicolas Papadakis, and Guy Gilboa. 
+% "Nonlinear Power Method for Computing Eigenvectors of Proximal Operators 
+% and Neural Networks." arXiv preprint arXiv:2003.04595 (2020).
+%
+% Please refer to this paper when you use the code.
+% 
+% authors: Leon Bungert <leon.bungert@fau.de>, 
+% Ester Hait-Fraenkel <etyhait@campus.technion.ac.il>
+% date: 23.03.2021
+%---------------------------------------------------------------------
+
 addpath(genpath('FFDnet_code'));
 clear all;
 close all;

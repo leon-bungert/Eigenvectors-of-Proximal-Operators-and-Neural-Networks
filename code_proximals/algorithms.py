@@ -1,3 +1,20 @@
+'''
+This module implements the proximal power method from: 
+
+Leon Bungert, Ester Hait-Fraenkel, Nicolas Papadakis, and Guy Gilboa. 
+"Nonlinear Power Method for Computing Eigenvectors of Proximal Operators 
+and Neural Networks." arXiv preprint arXiv:2003.04595 (2020).
+
+Please refer to this paper when you use the code.
+
+For comparison this module also implements the flow from:
+Raz Z. Nossek, and Guy Gilboa. "Flows generating nonlinear eigenfunctions." 
+Journal of Scientific Computing 75, no. 2 (2018): 859-888.
+
+authors: Leon Bungert <leon.bungert@fau.de>
+date: 23.03.2021
+'''
+
 import numpy as np
 import odl
 import matplotlib.pyplot as plt

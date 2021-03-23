@@ -1,3 +1,17 @@
+'''
+This script computes an eigenvector of the proximal operator of the total
+variation using the proximal power method from: 
+
+Leon Bungert, Ester Hait-Fraenkel, Nicolas Papadakis, and Guy Gilboa. 
+"Nonlinear Power Method for Computing Eigenvectors of Proximal Operators 
+and Neural Networks." arXiv preprint arXiv:2003.04595 (2020).
+
+Please refer to this paper when you use the code.
+
+authors: Leon Bungert <leon.bungert@fau.de>
+date: 23.03.2021
+'''
+
 # standard
 import numpy as np
 import matplotlib
